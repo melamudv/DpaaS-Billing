@@ -13,6 +13,8 @@ import { LeftSideComponent } from './includes/left-side/left-side.component';
 import { FooterComponent } from './includes/footer/footer.component';
 import { AmazonComponent } from './amazon/amazon.component';
 import { AzureComponent } from './azure/azure.component';
+import { LeftSideAmazonComponent } from './includes/left-side-amazon/left-side-amazon.component';
+import { LeftSideAzureComponent } from './includes/left-side-azure/left-side-azure.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { AzureComponent } from './azure/azure.component';
     LeftSideComponent,
     FooterComponent,
     AmazonComponent,
-    AzureComponent
+    AzureComponent,
+    LeftSideAmazonComponent,
+    LeftSideAzureComponent
 
   ],
   imports: [
