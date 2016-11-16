@@ -29,8 +29,8 @@ export class AmazonComponent implements OnInit {
     // this.getDataAmazon();
     var self = this;
       AWS.config.update({
-        accessKeyId: "AKIAJQGKHNOQAMIDYGXA",
-        secretAccessKey: "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",
+        accessKeyId: "xxxx",
+        secretAccessKey: "xxxxxx",
         region: "us-east-1"
       });
       var s3 = new AWS.S3();
